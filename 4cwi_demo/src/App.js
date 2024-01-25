@@ -1,18 +1,37 @@
 
-import PeopleContainer from './Components/PeopleContainer';
+// import PeopleContainer from './Components/PeopleContainer';
 
 
 
-function App() {
+// function App() {
+//   return (
+//     <div className="App">
+//      <PeopleContainer/>
+
+//     </div>
+//   );
+// }
+ 
+// export default App;
+
+import TopMenu from './Components/Menu/TopMenu'
+
+
+
+
+function Home() {
   return (
-    <div className="App">
-     <PeopleContainer/>
+    <div className="Home">
+     <TopMenu/>
 
     </div>
   );
 }
  
-export default App;
+export default Home;
+
+
+
 
 
 
