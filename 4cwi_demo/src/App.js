@@ -1,20 +1,5 @@
-
-// import PeopleContainer from './Components/PeopleContainer';
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//      <PeopleContainer/>
-
-//     </div>
-//   );
-// }
- 
-// export default App;
-
 import TopMenu from './Components/Menu/TopMenu'
+import LigaList from './Components/Pages/LigaList';
 
 
 
@@ -23,6 +8,7 @@ function Home() {
   return (
     <div className="Home">
      <TopMenu/>
+     <LigaList/>
 
     </div>
   );
