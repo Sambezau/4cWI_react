@@ -1,20 +1,27 @@
-import TopMenu from './Components/Menu/TopMenu'
-import LigaList from './Components/Pages/LigaList';
 
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import Seite1 from "./Components/Pages/Seite1";
+import Seite2 from "./Components/Pages/Seite2";
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Seite1/>,
+  
+  },
+  {
+    path: "/",
+    element: <Seite2/>,
+  
+  },
+]);
 
-
-function Home() {
-  return (
-    <div className="Home">
-     <TopMenu/>
-     <LigaList/>
-
-    </div>
-  );
+function App() {
+  return <RouterProvider router={router} />;
 }
- 
-export default Home;
+
+  
+export default App;
 
 
 

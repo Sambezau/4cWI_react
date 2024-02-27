@@ -17,6 +17,7 @@ export default function LigaList() {
   return (
     <><div className='flex h-screen'>
       <div className='h-2/3 bg-red-500 border-4 rounded-lg border-black w-1/3 m-10 overflow-y-auto '>
+        <ListItem team={{"teamName":"LA Liga Tabelle","teamIconUrl":"", "points":"P", "matches":"M", "won":"W", "draw":"D", "lost":"L"}}/>
         {ligadata.map(data => {
           return <ListItem team={data} />
         })}
