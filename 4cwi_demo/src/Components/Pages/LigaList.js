@@ -22,7 +22,7 @@ export default function LigaList() {
           return <ListItem team={data} />
         })}
       </div>
-      <div className='h-1/3 w-2/4 m-10'>
+      <div className='h-1/3 w-2/4 m-10 text-lg font-bold'> Aufstellung FC Barcelona
         <Aufstellung/>
       </div>
       </div>

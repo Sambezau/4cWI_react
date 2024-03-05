@@ -10,7 +10,7 @@ const router = createBrowserRouter([
   
   },
   {
-    path: "/",
+    path: "/Pages/Seite2",
     element: <Seite2/>,
   
   },
