@@ -8,7 +8,7 @@ export default function listitem({ team }) {
   return (
     <>
 
-      <div className=" bg-slate-100 component flex h-16 w-7/8 m-3 rounded-lg relative font-bold p-5">
+      <div className=" bg-slate-100 component flex h-16 w-7/8 m-3 rounded-lg relative font-bold p-5 hover:underline">
         <div className=""> {team.teamName}</div>
         <div className="absolute right-40">{team.teamIconUrl ? <img src={team.teamIconUrl} className='w-8 h-8'/> : ''}</div>
         <div className="absolute right-32"> {team.points}</div> 

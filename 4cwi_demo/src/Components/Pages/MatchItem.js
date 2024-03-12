@@ -8,7 +8,8 @@ export default function MatchItem({ match }) {
   if (match.length < 1) return(<></>);
   return (
     
-    <div className='h-40 rounded-lg mt-10 ml-16 mr-16 border-4 border-black flex relative '>
+   
+      <div className='h-40 rounded-lg mt-5 ml-16 mr-16 border-4 border-black flex relative '>
     <div className='items-center flex'>
     <div className='flex text-3xl font-bold absolute left-8 items-center'>
         {match.team1.teamName} 
@@ -21,8 +22,9 @@ export default function MatchItem({ match }) {
     </div>
     
     </div>
-    <div className='absolute left-1/2 transform -translate-x-1/2 font-bold'>{match.matchDateTime}</div>
+    <div className='absolute left-1/2 transform -translate-x-1/2 font-bold'> Next Match from {match.team2.teamName}: {match.matchDateTime} </div>
 </div>
+   
 
 
 
